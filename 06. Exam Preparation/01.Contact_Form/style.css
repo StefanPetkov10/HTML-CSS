@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 12px/1.5 'Source Sans 3', sans-serif;
+}
+
+body, input, textarea, button {
+    font: inherit;
+}
+
+body {
+    background: #F6F6F6;
+    min-height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+}
+
+a {
+
+    color: #585858;
+}
+
+.container {
+    display: flex;
+    gap: 2em;
+    width: 100%;
+    max-width: 1280px;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+aside {
+    flex: 0 0 260px;
+}
+
+h2 {
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    color: #585858;
+}
+
+form {
+    padding-top: 2em;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    border: none;
+    border: transparent;
+    padding: 0.5em, 0;
+    border-bottom: 1px solid #d6d6d6;
+    margin-bottom: 1.5em;
+    background-color: #F6F6F6;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    border-radius: 0.2em;
+    background: #585858;
+    color: #fff;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    margin-bottom: 4em;
+}
+
+.flex-row {
+    display: flex;
+    gap: 2em;
+}
+
+.social-icons {
+    display: flex;
+    gap: 0.4em;
+    flex-wrap: wrap;
+    padding-top: 2em;
+} 
+
+.social-icons li{
+    display: block;
+    border: 1px solid #ccc;
+    line-height: 1;
+    border-radius: 0.1em;
+}
+
+.social-icons li a {
+    display: block;
+    padding: 0.5em 1em;
+    font-size: 1.4em;
+}
+
+/*.social-icons li{
+    flex: 0 0 5em;
+    display: flex;
+    aspect-ratio: 3/2;
+    border: 1px solid #ccc;
+    line-height: 1;
+    border-radius: 0.1em;
+}
+
+.social-icons li a {
+    flex: 1 1 auto;
+    display: flex;
+    font-size: 1.4em;
+    align-self: center;
+    justify-content: center;
+    text-decoration: none;
+}*/
